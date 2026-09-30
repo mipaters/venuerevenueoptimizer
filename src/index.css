@@ -1,0 +1,135 @@
+:root {
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg: #06131d;
+  --bg-strong: #091b2e;
+  --text-main: #edf5ff;
+  --text-muted: #9bb7d1;
+  --border: rgba(147, 171, 206, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #06131d;
+  color: var(--text-main);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.theme-light {
+  --bg: #edf5ff;
+  --bg-strong: #dfeeff;
+  --text-main: #122338;
+  --text-muted: #4c6680;
+  --border: rgba(16, 43, 66, 0.12);
+}
+
+.theme-light .topbar,
+.theme-light .panel,
+.theme-light .stat-card,
+.theme-light .opportunity-card,
+.theme-light .forecast-card,
+.theme-light .price-card,
+.theme-light .inventory-card,
+.theme-light .fan-card,
+.theme-light .briefing-card,
+.theme-light .kpi-card,
+.theme-light .result-box,
+.theme-light .impact-box,
+.theme-light .outcome-pill,
+.theme-light .stack-item,
+.theme-light .nav-item,
+.theme-light .theme-toggle,
+.theme-light .secondary-button,
+.theme-light .scenario-tile,
+.theme-light .agent-option,
+.theme-light .architecture-node {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.theme-light .topbar {
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.theme-light .hero-panel {
+  background: linear-gradient(135deg, rgba(246, 249, 255, 0.96), rgba(219, 233, 255, 0.9));
+}
+
+.theme-light .primary-button {
+  color: white;
+}
+
+.theme-light .summary-line strong,
+.theme-light .stat-card strong,
+.theme-light .price-card strong,
+.theme-light .metric-row strong,
+.theme-light .big-number,
+.theme-light .list-item h3,
+.theme-light .brief-item h3,
+.theme-light .forecast-card h3,
+.theme-light .inventory-card h3,
+.theme-light .fan-card h3,
+.theme-light .agent-detail h3,
+.theme-light .outcome-pill,
+.theme-light .architecture-panel h3,
+.theme-light .scenario-detail h3,
+.theme-light .opportunity-card h3,
+.theme-light .hero-copy h1,
+.theme-light .section-header h2,
+.theme-light .brand-name,
+.theme-light .brand-subtitle,
+.theme-light .summary-line,
+.theme-light .stack-item,
+.theme-light .nav-item,
+.theme-light .theme-toggle,
+.theme-light .primary-button,
+.theme-light .secondary-button,
+.theme-light .scenario-tile,
+.theme-light .agent-option,
+.theme-light .architecture-node,
+.theme-light .outcome-pill {
+  color: var(--text-main);
+}
+
+.theme-light .theme-toggle,
+.theme-light .nav-item,
+.theme-light .scenario-tile,
+.theme-light .agent-option,
+.theme-light .architecture-node,
+.theme-light .secondary-button {
+  border-color: rgba(18, 35, 56, 0.12);
+}
